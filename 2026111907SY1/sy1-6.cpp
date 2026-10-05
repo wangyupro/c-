@@ -22,19 +22,19 @@ int main()
     c = input % 10;
     // 步骤3：输出百位、十位和个位。
     // 取百位数
-    printf("%d\n", a);
+    printf("258的百位数是：%d\n", a);
     // 取十位数
-    printf("%d\n", b);
+    printf("258的十位数是：%d\n", b);
     // 取个位数
-    printf("%d\n", c);
+    printf("258的个位数是：%d\n", c);
     // 步骤4：将整数转成字符串并反转字符顺序。
     snprintf(str, sizeof(str), "%d", input);
     // 字符串内容方向取反
     std::reverse(str, str + std::strlen(str));
-    printf("字符串: %s\n", str);
+    printf("258的逆序数是: %s\n", str);
     // 步骤5：将反转后的字符串转回整数并输出其两倍。
     int value = std::stoi(str);
-    printf("字符串乘2: %d\n", value * 2);
+    printf("258的逆序数乘2是: %d\n", value * 2);
 
     // const std::string digits = std::to_string(input);
     // printf("%c\n", digits.c_str());

@@ -13,6 +13,6 @@ int main()
     c = 2 * Pl * r;
     s = Pl * r * r;
     // 步骤3：输出圆周长和面积。
-    printf("%.4f %.4f", c, s);
+    printf("圆周长为：%.4f，面积为：%.4f", c, s);
     return 0;
 }
